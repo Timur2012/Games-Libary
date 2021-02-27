@@ -1,0 +1,37 @@
+img {
+	width: 500px;
+	opacity: 0.2;
+	border-radius: 100000px;
+	transition: 1s;
+}
+
+img:hover {
+	opacity: 1;
+}
+
+body {
+	font-family: 'Bebas Neue', cursive;
+	background: url(florian-olivo-Mf23RF8xArY-unsplash.jpg) no-repeat center top / cover;
+;
+background-attachment: fixed;
+}
+
+div {
+	display: inline-block;
+}
+.rainbow-box {
+background-color: #302244;
+border: 5px solid transparent;
+border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+border-image-slice: 1;
+margin: 0 auto;
+display: block;
+width: 1600px;
+text-align: center;
+margin-top: 10px;
+}
+
+h1 {
+	color: orange;
+	text-align: center
+}
